@@ -1,0 +1,114 @@
+body {
+    font-family: impact;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(#FD8211, #974E0A);
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+img {
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+div {
+   width: 250px;
+   height: 200px; 
+   border-radius: 15px;
+}
+
+.fre1 {
+    display: inline-block;
+    margin-top: 30px;
+    margin: 30px;
+    background-image: linear-gradient(#FD8211, #974E0A);
+}
+
+.fre2 {
+   display: inline-block;
+   margin-top: 50px;
+   background-image: linear-gradient(#FD8211, #974E0A);
+}
+
+.fre3 {
+   display: inline-block; 
+   margin-top: 30px;
+   margin: 30px;
+   background-image: linear-gradient(#FD8211, #974E0A);
+}
+
+.fre4 {
+    display: inline-block;
+    margin-top: 30px;
+    background-image: linear-gradient(#FD8211, #974E0A);
+}
+
+.fre5 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 170px;
+    background-image: linear-gradient(#FD8211, #974E0A);
+}
+
+.imgnavi {
+    width: 64px;
+    height: 51px;
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fre {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(blue, aqua);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.team {
+    width:180px ;
+    height:200px ;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.player {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.players {
+   display: grid;
+   gap: 10px;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: auto auto; 
+}
+
+.fre:hover {
+   height:340px ;
+   width:240px ;
+}
