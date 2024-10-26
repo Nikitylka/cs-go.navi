@@ -108,6 +108,11 @@ h2 {
    grid-template-rows: auto auto; 
 }
 
+.players-container {
+    position: relative;
+    left:20%;
+}
+
 .fre:hover {
    height:340px ;
    width:240px ;
